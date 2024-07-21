@@ -1,0 +1,247 @@
+:root {
+  --Dark-purple: #24053e;
+  --Eucaplyptus: #44ffa1;
+  --Davys-grey: #584d62;
+  --Ghost-white: #fcf8ff;
+  --White: #ffff;
+
+  /* Fonts */
+  --Fraunces: "Fraunces", serif;
+  --Manrope: "Manrope", sans-serif;
+
+  /* Container widths */
+  --container: 343px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  background-color: var(--White);
+}
+
+main,
+footer {
+  background-color: var(--White);
+}
+
+header {
+  background-color: var(--Dark-purple);
+  color: white;
+  position: relative;
+  height: 481.71px;
+  width: 100%;
+}
+
+/* Header */
+
+.nav-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  margin: auto;
+  padding-top: 2rem;
+  max-width: var(--container);
+}
+
+.logo {
+  width: 95.76px;
+  height: 24.61px;
+}
+
+.apply {
+  font-family: var(--Manrope);
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline var(--Eucaplyptus) 3px;
+  text-underline-offset: 5px;
+}
+
+header > h1,
+.learn-more {
+  margin: auto;
+}
+
+header > h1 {
+  font-family: var(--Fraunces);
+  font-size: 3.125rem;
+  max-width: var(--container);
+  padding-top: 4rem;
+  text-align: center;
+}
+
+header > h1 > span {
+  text-decoration: underline var(--Eucaplyptus) 4px;
+  text-underline-offset: 15px;
+}
+
+.learn-more {
+  cursor: pointer;
+  font-family: var(--Manrope);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2.5rem;
+  color: var(--Dark-purple);
+  background-color: var(--Eucaplyptus);
+  width: 133px;
+  height: 55px;
+  font-weight: bold;
+}
+
+.mobile-hero {
+  left: 50%;
+  top: 50%;
+  margin-top: 145px;
+  margin-left: -150px;
+  position: absolute;
+  width: 320px;
+  height: 184px;
+  z-index: 1;
+}
+
+ul {
+  text-align: center;
+  color: var(--Dark-purple);
+  font-family: var(--Manrope);
+  max-width: 410px;
+  margin: auto;
+  list-style: none;
+}
+
+.list-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--Ghost-white);
+  position: relative;
+  height: 1070px;
+}
+
+.list-groups {
+  padding: 2.5rem 0rem;
+}
+
+ul > h2 {
+  font-family: var(--Fraunces);
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding: 1.5rem 0rem 1rem 0rem;
+}
+
+ul > p {
+  line-height: 28px;
+}
+
+.li-numbers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid var(--Davys-grey);
+  width: 48px;
+  height: 46px;
+}
+
+/* Louis Graham section */
+
+.louis-graham {
+  margin: 6.25rem 0rem 4.625rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.louis-graham-img {
+  width: 281px;
+  height: 281px;
+}
+
+.blue-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 343px;
+  height: 375px;
+  text-align: center;
+  background-color: var(--Dark-purple);
+  color: var(--White);
+  position: absolute;
+  top: 230px;
+}
+
+.blue-box-content {
+  padding: 2rem 1.938rem;
+}
+
+.blue-box-content > h3 {
+  font-family: var(--Fraunces);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.blue-box-content > p {
+  font-family: var(--Manrope);
+  font-size: 1rem;
+  padding: 1rem 0rem 1.5rem 0rem;
+}
+
+.apply-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  background-color: var(--Eucaplyptus);
+  font-family: var(--Manrope);
+  color: var(--Dark-purple);
+  width: 172px;
+  height: 55px;
+  margin: auto;
+  cursor: pointer;
+}
+
+/* Footer section */
+
+.logo-dark {
+  cursor: pointer;
+  width: 95.76px;
+  height: 24.61px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20rem;
+  padding-bottom: 4rem;
+  gap: 3.563rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.socials {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
