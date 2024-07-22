@@ -1,0 +1,42 @@
+@media screen and (min-width: 48em) and (max-width: 90em) {
+  header {
+    height: 540.24px;
+  }
+
+  /* Header */
+
+  .nav-cta {
+    padding: 0rem 2.5rem;
+    padding-top: 2rem;
+    max-width: 689px;
+  }
+
+  .logo {
+    width: 95.76px;
+    height: 24.61px;
+  }
+
+  .apply {
+    font-size: 1rem;
+    text-decoration: 3px;
+    text-underline-offset: 5px;
+    text-decoration: underline var(--Eucaplyptus) 3px;
+  }
+
+  header > h1 {
+    font-size: 3.125rem;
+    padding-top: 4rem;
+  }
+
+  header > h1 > span {
+    text-decoration: 4px;
+    text-underline-offset: 15px;
+    text-decoration: underline var(--Eucaplyptus) 4px;
+  }
+
+  .learn-more {
+    margin-top: 2.5rem;
+    width: 133px;
+    height: 55px;
+  }
+}
