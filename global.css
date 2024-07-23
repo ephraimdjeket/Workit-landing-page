@@ -26,6 +26,7 @@ img {
 
 body {
   background-color: var(--White);
+  overflow-x: hidden;
 }
 
 main,
@@ -67,8 +68,8 @@ header > h1,
 
 header > h1 {
   font-family: var(--Fraunces);
-  max-width: var(--container);
   text-align: center;
+  max-width: var(--container);
 }
 
 header > h1 > span {

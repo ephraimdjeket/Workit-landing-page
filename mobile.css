@@ -112,6 +112,11 @@
     height: 55px;
   }
 
+  .coil-one,
+  .coil-two {
+    display: none;
+  }
+
   /* Footer section */
 
   .logo-dark {
