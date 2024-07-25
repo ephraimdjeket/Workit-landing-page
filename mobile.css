@@ -55,6 +55,7 @@
 
   .list-section {
     height: 1070px;
+    flex-direction: column;
   }
 
   .list-groups {
@@ -71,7 +72,10 @@
   }
 
   .li-numbers {
-    border: 2px solid var(--Davys-grey);
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
     width: 48px;
     height: 46px;
   }

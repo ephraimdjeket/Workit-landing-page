@@ -103,7 +103,7 @@ ul {
 
 .list-section {
   display: flex;
-  flex-direction: column;
+
   text-align: center;
   background-color: var(--Ghost-white);
   position: relative;
@@ -116,10 +116,6 @@ ul > h2 {
 
 .li-numbers {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin: auto;
   border-radius: 50%;
   border: 2px solid var(--Davys-grey);
 }

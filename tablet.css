@@ -69,8 +69,22 @@
     height: 296px;
   }
 
+  .list-section {
+    height: 920.73px;
+    align-items: center;
+  }
+
   .list-groups {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .li-numbers {
+    justify-content: center;
     flex-direction: row;
+    text-align: center;
+    width: 48px;
+    height: 46px;
   }
 }
