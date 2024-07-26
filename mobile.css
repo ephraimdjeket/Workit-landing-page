@@ -1,4 +1,4 @@
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 47em) {
   header {
     height: 481.71px;
   }
@@ -86,11 +86,6 @@
     margin: 6.25rem 0rem 4.625rem 0rem;
   }
 
-  .louis-graham-img {
-    width: 281px;
-    height: 281px;
-  }
-
   .blue-box {
     width: 343px;
     height: 375px;
@@ -112,12 +107,12 @@
   }
 
   .apply-btn {
-    width: 172px;
-    height: 55px;
+    margin: auto;
   }
 
   .coil-one,
-  .coil-two {
+  .coil-two,
+  .coil-three {
     display: none;
   }
 

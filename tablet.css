@@ -1,4 +1,4 @@
-@media screen and (min-width: 48em) and (max-width: 90em) {
+@media screen and (min-width: 47em) and (max-width: 90em) {
   header {
     height: 540.24px;
   }
@@ -76,15 +76,85 @@
 
   .list-groups {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
+  }
+
+  .list-content {
+    max-width: 573px;
+    text-align: left;
+    padding: 3rem 0rem;
+  }
+
+  .list-content > h2 {
+    font-size: 1.75rem;
+    padding-bottom: 1rem;
+  }
+
+  .list-content > p {
+    font-size: 1rem;
+    max-width: 493px;
   }
 
   .li-numbers {
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     width: 48px;
     height: 46px;
+  }
+
+  /* Louis Graham section */
+
+  .louis-graham {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 689px;
+    height: 526px;
+    margin: auto;
+    margin-top: 6.125rem;
+    margin-bottom: 5rem;
+  }
+
+  .louis-graham-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .blue-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--Dark-purple);
+    color: var(--White);
+    position: absolute;
+    width: 514px;
+    height: 375px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .blue-box-content {
+    display: flex;
+    flex-direction: column;
+    width: 422px;
+    text-align: left;
+    gap: 24px;
+  }
+
+  .coil-three {
+    position: absolute;
+    width: 173px;
+    height: 137px;
+    bottom: -80px;
+    right: 0px;
   }
 }

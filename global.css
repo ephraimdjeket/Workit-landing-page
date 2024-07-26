@@ -103,15 +103,15 @@ ul {
 
 .list-section {
   display: flex;
-
   text-align: center;
   background-color: var(--Ghost-white);
   position: relative;
 }
 
-ul > h2 {
+.list-content > h2,
+.li-numbers {
   font-family: var(--Fraunces);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .li-numbers {
@@ -141,24 +141,33 @@ ul > h2 {
   position: absolute;
 }
 
+.louis-graham-img {
+  width: 281px;
+  height: 281px;
+}
+
 .blue-box-content > h3 {
   font-family: var(--Fraunces);
+  font-size: 3rem;
 }
 
 .blue-box-content > p {
   font-family: var(--Manrope);
+  font-size: 1rem;
 }
 
 .apply-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   font-weight: bold;
   background-color: var(--Eucaplyptus);
   font-family: var(--Manrope);
   color: var(--Dark-purple);
-  margin: auto;
   cursor: pointer;
+  width: 172px;
+  height: 55px;
 }
 
 /* Footer section */
