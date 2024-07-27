@@ -1,6 +1,6 @@
-@media screen and (min-width: 47em) and (max-width: 90em) {
+@media screen and (min-width: 90em) {
   header {
-    height: 540.24px;
+    height: 730px;
   }
 
   /* Header */
@@ -8,7 +8,7 @@
   .nav-cta {
     padding: 0rem 2.5rem;
     padding-top: 2rem;
-    max-width: 689px;
+    max-width: 1109px;
   }
 
   .logo {
@@ -24,9 +24,9 @@
   }
 
   header > h1 {
-    font-size: 3.75rem;
+    font-size: 5rem;
     padding-top: 4rem;
-    max-width: 400px;
+    max-width: 635px;
   }
 
   header > h1 > span {
@@ -37,8 +37,8 @@
 
   .learn-more {
     margin-top: 2.5rem;
-    width: 133px;
-    height: 55px;
+    width: 161px;
+    height: 61px;
   }
 
   .coil-one,
@@ -50,60 +50,59 @@
     width: 270.29px;
     height: 215.1px;
     top: 150px;
-    left: -175px;
+    left: -125px;
   }
 
   .coil-two {
     width: 141.7px;
     height: 112.71px;
     top: 290px;
-    right: -75px;
+    right: -50px;
   }
 
   .mobile-hero {
     left: 50%;
     top: 50%;
-    margin-top: 145px;
-    margin-left: -257px;
-    width: 514px;
-    height: 296px;
+    margin-top: 150px;
+    margin-left: -365px;
+    width: 767px;
+    height: 441px;
   }
 
   /* List section */
 
+  ul {
+    display: flex;
+    flex-direction: row;
+    max-width: 1114px;
+    gap: 1.625rem;
+    padding-top: 5.6rem;
+  }
+
   .list-section {
-    height: 920.73px;
-    align-items: center;
+    height: 816px;
+    flex-direction: column;
   }
 
   .list-groups {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .list-content {
-    max-width: 573px;
-    text-align: left;
-    padding: 3rem 0rem;
+    padding: 2.5rem 0rem;
   }
 
   .list-content > h2 {
     font-size: 1.75rem;
-    padding-bottom: 1rem;
+    padding-top: 3.5rem;
+    padding-bottom: 1.75rem;
   }
 
   .list-content > p {
-    font-size: 1rem;
-    max-width: 493px;
+    line-height: 32px;
   }
 
   .li-numbers {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin: auto;
     width: 48px;
     height: 46px;
   }
@@ -116,7 +115,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    max-width: 730px;
+    max-width: 1112px;
     height: 526px;
     margin: auto;
     margin-top: 6.125rem;
@@ -127,6 +126,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 477px;
+    height: 477px;
   }
 
   .blue-box {
@@ -138,9 +139,9 @@
     background-color: var(--Dark-purple);
     color: var(--White);
     position: absolute;
-    width: 514px;
-    height: 375px;
-    bottom: 0;
+    width: 730px;
+    height: 413px;
+    bottom: -70px;
     right: 0;
   }
 
@@ -158,5 +159,11 @@
     height: 137px;
     bottom: -80px;
     right: 0px;
+  }
+
+  /* Footer section */
+
+  footer {
+    padding-top: 5rem;
   }
 }

@@ -8,9 +8,6 @@
   /* Fonts */
   --Fraunces: "Fraunces", serif;
   --Manrope: "Manrope", sans-serif;
-
-  /* Container widths */
-  --container: 343px;
 }
 
 * {
@@ -41,6 +38,10 @@ header {
   width: 100%;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 /* Header */
 
 .nav-cta {
@@ -55,10 +56,15 @@ header {
 }
 
 .apply {
+  cursor: pointer;
   justify-content: flex-end;
   font-family: var(--Manrope);
   font-weight: bold;
   text-decoration: underline var(--Eucaplyptus) 3px;
+}
+
+.apply:hover {
+  color: var(--Eucaplyptus);
 }
 
 header > h1,
@@ -86,6 +92,13 @@ header > h1 > span {
   color: var(--Dark-purple);
   background-color: var(--Eucaplyptus);
   font-weight: bold;
+}
+
+.learn-more:hover,
+.apply-btn:hover {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid var(--Eucaplyptus);
+  color: var(--Eucaplyptus);
 }
 
 .mobile-hero {
@@ -174,6 +187,8 @@ ul {
 
 .logo-dark {
   cursor: pointer;
+  width: 95.76px;
+  height: 24.61px;
 }
 
 footer {
@@ -181,13 +196,18 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 4rem;
+  gap: 3.563rem;
 }
 
 .social-icons {
   display: flex;
   flex-direction: row;
+  gap: 28px;
 }
 
 .socials {
   cursor: pointer;
+  width: 20px;
+  height: 20px;
 }

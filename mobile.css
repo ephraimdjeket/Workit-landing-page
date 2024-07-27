@@ -49,6 +49,8 @@
     height: 184px;
   }
 
+  /* List section */
+
   ul {
     max-width: 410px;
   }
@@ -62,12 +64,12 @@
     padding: 2.5rem 0rem;
   }
 
-  ul > h2 {
+  .list-content > h2 {
     font-size: 1.75rem;
     padding: 1.5rem 0rem 1rem 0rem;
   }
 
-  ul > p {
+  .list-content > p {
     line-height: 28px;
   }
 
@@ -118,23 +120,7 @@
 
   /* Footer section */
 
-  .logo-dark {
-    width: 95.76px;
-    height: 24.61px;
-  }
-
   footer {
     padding-top: 20rem;
-    padding-bottom: 4rem;
-    gap: 3.563rem;
-  }
-
-  .social-icons {
-    gap: 28px;
-  }
-
-  .socials {
-    width: 20px;
-    height: 20px;
   }
 }
