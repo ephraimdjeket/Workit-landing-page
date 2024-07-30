@@ -45,9 +45,9 @@
 
 ## About the project
 
-This is my <strong>5<sup>th</sup></strong> Frontend Mentor challenge.
+This is my <strong>6<sup>th</sup></strong> Frontend Mentor challenge.
 
-This is my solution for the 3-column preview card component challenge on Frontend Mentor.
+This is my solution for the workit landing page component challenge on Frontend Mentor.
 
 Your users should be able to:
 
