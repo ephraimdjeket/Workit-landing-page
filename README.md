@@ -45,7 +45,7 @@
 
 ## About the project
 
-This is my <strong>6<sup>th</sup></strong> Frontend Mentor challenge.
+This is my <strong>5<sup>th</sup></strong> Frontend Mentor challenge.
 
 This is my solution for the workit landing page component challenge on Frontend Mentor.
 
