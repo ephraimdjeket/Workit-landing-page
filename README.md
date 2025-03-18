@@ -75,8 +75,6 @@ For this project I used:
 ## Follow Me
 
 - My website - Coming soon.
-- &nbsp;Discord - dertzeydev
-- &nbsp;X - [@Dertzey](https://x.com/Dertzey_)
 - &nbsp;Github - [@FedLover](https://github.com/ephraimdjeket)
 - &nbsp;Frontend Mentor - [@ephraimdjeket](https://www.frontendmentor.io/profile/ephraimdjeket)
 
